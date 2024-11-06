@@ -1,8 +1,17 @@
 // import React from 'react'
 import { useState } from 'react';
+import { HiOutlineMenu } from "react-icons/hi";
+import { CgClose } from "react-icons/cg";
 
 
 const Navbar = () => {
+
+  const [showMenu, setShowMenu]  = useState(false);
+    const toggleNavbar = () => {
+      setShowMenu(!showMenu);
+    }
+
+
   return (
    <>
    <nav className='sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80'>
@@ -24,14 +33,45 @@ const Navbar = () => {
 
         <div className='flex items-center flex-shrink-0'>
           <img src='/logo.png' alt="logo" className="h-10 w-10 mr-2 rounded-full border-[2px]"/>
-          <span className="text-xl tracking-tight">Pushpendra Singh</span>
+          <span className="text-xl tracking-tight">User</span>
         </div>
 
-          <a href="#" className="bg-blue-500 py-2 px-3 border rounded-md">Sign In</a>
-          <a href="#" className="bg-blue-500 py-2 px-3 border rounded-md">Sign Up</a>
+          <a href="/signin" className=" text-blue-600 text-xl">Login</a>
+          <a href="/signup" className=" text-blue-600 text-xl">Register</a>
+        </div>
+
+        <div className="lg:hidden md:flex flex-col justify-end text-3xl py-3">
+          <button onClick={toggleNavbar}>
+            {showMenu? <CgClose /> : <HiOutlineMenu />}
+          </button>
         </div>
 
       </div>
+
+      {showMenu && (
+        <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+
+        <ul className='text-white text-xl'>
+          <li className='py-3'><a href="#">Home</a></li>
+          <li className='py-3'><a href="#">Courses</a></li>
+          <li className='py-3'><a href="#">About</a></li>
+        </ul>
+
+        <div className='text-white text-xl'>
+        
+          <a href="/signin" className="block text-xl py-3">Login</a>
+          <a href="/signup" className="block text-xl py-3">Register</a>
+
+          <div className='flex items-center py-3'>
+          <span className="text-xl tracking-tight">User</span>
+        </div>
+
+        </div>
+        </div>
+      )}
+        
+
+
     </div>
     </nav>
    </>
