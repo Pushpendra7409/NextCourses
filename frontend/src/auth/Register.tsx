@@ -21,19 +21,19 @@ const Register = () => {
                   <input
                     type="text"
                     id="first-name"
-                    className="w-full px-4 py-2 border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500"
+                    className="w-full px-4 py-2 text-white border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500"
                     placeholder="First Name"
                   />
                   <input
                     type="text"
                     id="middle-name"
-                    className="w-full px-4 py-2 border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500"
+                    className="w-full px-4 py-2 text-white border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500"
                     placeholder="Middle Name"
                   />
                   <input
                     type="text"
                     id="last-name"
-                    className="w-full px-4 py-2 border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500"
+                    className="w-full px-4 py-2 text-white border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500"
                     placeholder="Last Name"
                   />
                 </div>
@@ -41,28 +41,28 @@ const Register = () => {
 
               <div className="mb-4">
                 <label className="block text-white font-semibold mb-2" htmlFor="email">Email</label>
-                <input type="email" id="email" className="w-full px-4 py-2 border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500" placeholder="Enter your email" />
+                <input type="email" id="email" className="w-full px-4 py-2 text-white border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500" placeholder="Enter your email" />
               </div>
 
               <div className="flex flex-col md:flex-row gap-4">
                 <div className="mb-6 w-full">
                   <label className="block text-white font-semibold mb-2" htmlFor="password">Password</label>
-                  <input type="password" id="password" className="w-full px-4 py-2 border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500" placeholder="Enter your password" />
+                  <input type="password" id="password" className="w-full px-4 py-2 text-white border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500" placeholder="Enter your password" />
                 </div>
                 <div className="mb-6 w-full">
                   <label className="block text-white font-semibold mb-2" htmlFor="confirm-password">Confirm Password</label>
-                  <input type="password" id="confirm-password" className="w-full px-4 py-2 border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500" placeholder="Confirm your password" />
+                  <input type="password" id="confirm-password" className="w-full px-4 py-2 text-white border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500" placeholder="Confirm your password" />
                 </div>
               </div>
 
               <div className="flex flex-col md:flex-row gap-4">
                 <div className="mb-6 w-full">
                   <label className="block text-white font-semibold mb-2" htmlFor="dob">Date of Birth</label>
-                  <input type="date" id="dob" className="w-full px-4 py-2 border border-zinc-500 bg-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500 text-zinc-400" />
+                  <input type="date" id="dob" className="w-full px-4 py-2  border border-zinc-500 bg-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500 text-white" />
                 </div>
                 <div className="mb-6 w-full">
                   <label className="block text-white font-semibold mb-2" htmlFor="mob">Contact Number</label>
-                  <input type="number" id="mob" className="w-full px-4 py-2 border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500" placeholder="Enter WhatsApp number" />
+                  <input type="number" id="mob" className="w-full px-4 py-2 text-white border border-zinc-500 bg-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500" placeholder="Enter WhatsApp number" />
                 </div>
               </div>
 
