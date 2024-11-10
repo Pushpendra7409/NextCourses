@@ -14,15 +14,15 @@ const Navbar = () => {
 
   return (
    <>
-   <nav className='sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80'>
+   <nav className='sticky top-0 z-50 py-4 backdrop-blur-lg border-b border-neutral-700/80'>
     <div className='container px-4 mx-auto relative text-sm'>
       <div className='flex justify-between items-center'>
         <div className='flex items-center flex-shrink-0'>
           <img src='/logo.png' alt="logo" className="h-10 w-10 mr-2"/>
-          <span className="text-xl tracking-tight">NextSkill</span>
+          <span className="text-2xl tracking-tight ">NextSkill</span>
         </div>
 
-        <ul className="hidden lg:flex ml-14 space-x-12 text-xl">
+        <ul className="hidden lg:flex ml-14 space-x-12 text-xl ">
           <li><a href="#">Home</a></li>
           <li><a href="#">Courses</a></li>
           <li><a href="#">About</a></li>
@@ -33,7 +33,7 @@ const Navbar = () => {
 
         <div className='flex items-center flex-shrink-0'>
           <img src='/logo.png' alt="logo" className="h-10 w-10 mr-2 rounded-full border-[2px]"/>
-          <span className="text-xl tracking-tight">User</span>
+          <span className="text-xl tracking-tight ">Profile Picture</span>
         </div>
 
           <a href="/signin" className=" text-blue-600 text-xl">Login</a>
@@ -57,13 +57,13 @@ const Navbar = () => {
           <li className='py-3'><a href="#">About</a></li>
         </ul>
 
-        <div className='text-white text-xl'>
+        <div className='text-white text-xl text-center'>
         
           <a href="/signin" className="block text-xl py-3">Login</a>
           <a href="/signup" className="block text-xl py-3">Register</a>
 
           <div className='flex items-center py-3'>
-          <span className="text-xl tracking-tight">User</span>
+          <span className="text-xl tracking-tight">Profile Picture</span>
         </div>
 
         </div>
