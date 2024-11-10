@@ -23,9 +23,9 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden lg:flex ml-14 space-x-12 text-xl ">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="/user/dashboard">Home</a></li>
+          <li><a href="/user/course">Courses</a></li>
+          <li><a href="/about">About</a></li>
         </ul>
   
 

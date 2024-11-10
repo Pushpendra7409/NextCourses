@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <>
     <div>
-    <footer className="bg-black text-white py-24">
+    <footer className="bg-black text-white py-20">
+        <div className='container mx-auto border-t-[2px] border-zinc-400 pb-10'></div>
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         
         {/* Social and Logo Section */}
@@ -30,8 +31,8 @@ const Footer = () => {
             <li><a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a></li>
             <li><a href="#" className="text-gray-400 hover:text-white">Terms and Condition</a></li>
             <li><a href="#" className="text-gray-400 hover:text-white">Pricing and Refund</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Hire From Us</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Bug Bounty</a></li>
+            {/* <li><a href="#" className="text-gray-400 hover:text-white">Hire From Us</a></li>
+            <li><a href="#" className="text-gray-400 hover:text-white">Bug Bounty</a></li> */}
           </ul>
         </div>
 
@@ -39,7 +40,7 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h3 className="font-semibold uppercase mb-4">Community</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="text-gray-400 hover:text-white">Inertia</a></li>
+            {/* <li><a href="#" className="text-gray-400 hover:text-white">Inertia</a></li> */}
             <li><a href="#" className="text-gray-400 hover:text-white">Discord</a></li>
           </ul>
         </div>
@@ -48,10 +49,10 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h3 className="font-semibold uppercase mb-4">Get In Touch</h3>
           <ul className="space-y-2 text-gray-400">
-            <li>+91 8109161752</li>
-            <li>+91 9691778470</li>
-            <li><a href="mailto:hello@sheryians.com" className="hover:text-white">hello@sheryians.com</a></li>
-            <li>23-B, Indrapuri Sector C, Bhopal(MP), 462021</li>
+            <li>+91 7983405395</li>
+            <li>+91 7409632739</li>
+            <li><a href="mailto:pushpendr7409@gmail.com" className="hover:text-white">Skill-X.com</a></li>
+            <li>Mathura (UP), 281204</li>
           </ul>
         </div>
       </div>  
