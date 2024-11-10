@@ -42,7 +42,7 @@ const Hero = () => {
         <img src="/hero.png" alt="hero" className="object-contain" />
       </div>
 
-      <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-5xl md:text-9xl text-center mt-8 md:mt-10">
+      <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-5xl md:text-9xl text-center mt-8 md:mt-10 select-none">
         Skills that <br /> Matter
       </h1>
     </div>

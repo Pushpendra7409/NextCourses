@@ -1,4 +1,5 @@
 // import React from 'react'
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar"
 import Companies from "../../components/ui/Companies";
 import Counter from "../../components/ui/Counter";
@@ -17,7 +18,7 @@ const UserDashboard = () => {
    <Video />
    <Courses />
    <Companies />
-
+   <Footer />
    </>
   )
 }

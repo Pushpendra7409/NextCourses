@@ -23,13 +23,13 @@ const Courses: React.FC = () => {
             <div className="border-t border-zinc-400 w-full"></div>
           </div>
 
-          {/* Topics */}
+          {/* Topics
           <div className="mt-5">
             <ul className="text-white">
               <li className="border border-gray-500 p-2 inline-block mr-2">Web development</li>
               <li className="border border-gray-500 p-2 inline-block mr-2">Programming</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Author and Price */}
           <div className="flex justify-between mt-4 pt-5 pb-5">
@@ -44,7 +44,7 @@ const Courses: React.FC = () => {
         </div>
         {/* Repeat the card component as needed */}
 
-        
+
 
 
 
